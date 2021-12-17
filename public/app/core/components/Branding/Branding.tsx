@@ -9,7 +9,7 @@ export interface BrandComponentProps {
 }
 
 const LoginLogo: FC<BrandComponentProps> = ({ className }) => {
-  return <img src="public/img/ra/rockii_dashboard.png" alt="Rockii Dashboard" />;
+  return <img style="max-width:400px" src="public/img/ra/rockii_dashboard.png" alt="Rockii Dashboard" />;
   //return <img className={className} src="public/img/ra/rockii_dashboard.png" alt="Rockii Dashboard" />;
 };
 
@@ -60,7 +60,7 @@ export class Branding {
   static MenuLogo = MenuLogo;
   static LoginBoxBackground = LoginBoxBackground;
   static AppTitle = 'Rockii Dashboard';
-  static LoginTitle = 'Welcome to Rockii Dashboard';
+  static LoginTitle = '';
   static GetLoginSubTitle = (): null | string => {
     return null;
   };

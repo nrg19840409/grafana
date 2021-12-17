@@ -9,7 +9,8 @@ export interface BrandComponentProps {
 }
 
 const LoginLogo: FC<BrandComponentProps> = ({ className }) => {
-  return <img className={className} src="public/img/ra/ra_logo_original.png" alt="Rockii Dashboard" />;
+  return <img src="public/img/ra/rockii_dashboard.png" alt="Rockii Dashboard" />;
+  //return <img className={className} src="public/img/ra/rockii_dashboard.png" alt="Rockii Dashboard" />;
 };
 
 const LoginBackground: FC<BrandComponentProps> = ({ className, children }) => {

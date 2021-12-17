@@ -9,7 +9,7 @@ export interface BrandComponentProps {
 }
 
 const LoginLogo: FC<BrandComponentProps> = ({ className }) => {
-  return <img style="max-width:400px" src="public/img/ra/rockii_dashboard.png" alt="Rockii Dashboard" />;
+  return <img style={{ width: '400px' }} src="public/img/ra/rockii_dashboard.png" alt="Rockii Dashboard" />;
   //return <img className={className} src="public/img/ra/rockii_dashboard.png" alt="Rockii Dashboard" />;
 };
 
